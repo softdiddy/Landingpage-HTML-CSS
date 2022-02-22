@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo b{
+    font-weight: 400;
+    font-size: 40px;
+    color:green;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: gray;
+}
+
+header{
+    height: 150px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid green;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+ul li a{
+    color: green;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: larger;
+    font-weight: 500;
+}
+
+li a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: green;
+    transition: all .5s;
+}
+
+li a:hover::after{
+    width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.savingImage{
+    max-width: 670px;
+    height: auto;
+   
+}
+
+.contentLeft{
+    width: 30%;
+}
+
+main h1{
+    font-size: 54px;
+    color: rgb(16, 31, 119);
+    text-transform: capitalize;
+}
+
+main h2{
+    font-size: 25px;
+    color: green;
+    text-transform: capitalize;
+    letter-spacing: 8px;
+    font-weight: 700;
+}
+
+main p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 31.5px;
+    margin: 30px 0;
+    text-align:left;
+}
+
+.btnGetStarted{
+    background: rgb(16, 31, 119);
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 15px 30px;
+    background: rgb(16, 31, 119);
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 50px;
+    cursor: pointer;
+}

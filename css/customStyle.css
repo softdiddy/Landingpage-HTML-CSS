@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    font-family: 'Open Sans', sans-serif;
+    background: gray;
+}
+
+.header{
+    height: 100px;
+    border-bottom: 1rem;
+    box-shadow: 2rem;
+    border-color: green;
+    background: gray;
+}
